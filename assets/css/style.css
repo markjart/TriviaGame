@@ -1,0 +1,98 @@
+/* ----  Beatles Font ----*/
+
+@font-face {
+    font-family: Beatles;
+    src: url(../fonts/BOOTLE__.TTF);
+}
+
+/* ----  CSS ----*/
+
+body {
+	background-image: url(../images/the_beatles_silhouette_haircut_mustache.jpg);
+	text-align: center;
+	background-size: 100%;
+	background-position: relative;
+}
+
+button {
+	box-sizing: border-box;
+	font-family: Beatles;
+	display:block;
+	width:auto;
+	height:20%;
+	margin: 0 auto;
+	border:none;
+	cursor: pointer;
+	background:transparent;
+	font-size: 150%;
+	padding: 20px, 0 20px, 0;
+}
+
+button:hover {
+	box-sizing: border-box;
+	border:2px solid #1F8093;
+	background: #E0CA5A;
+}
+
+#footer {
+	box-sizing: border-box;
+	clear: both;
+	text-align: center;
+	padding: 50px 0 0 0;
+	margin-top: 25px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+img {
+	height:200px;
+	padding: 20px 0 20px 0;
+}
+
+h1 {
+    font-family: Beatles;
+	font-size: 550%;
+	font-weight: bold;
+	color: #1F8093;
+	padding: 35px 0 30px 0;
+	margin: 0 0 0 0;
+}
+
+h2 {
+	font-family: Beatles;
+	font-size: 200%;
+	margin: 0 0 0 0;
+	padding: 10px 0 30px 0;
+}
+
+h3 {
+	font-family: Beatles;
+	font-size: 175%;
+	width: 100%;
+}
+
+#question {
+	font-family: Beatles;
+	font-size: 175%;
+	margin: 0 0 0 0;
+	padding: 20px 0 20px 0;
+}
+
+
+#wrapper {
+	margin:0 auto;
+	width:100%;
+	height: 100%;
+	box-sizing: border-box;
+} 
+
+#subwrapper {
+	position: relative;
+}
+
+#start {
+	border:2px solid #1F8093;
+	background: #E0CA5A;
+	padding: 10px, 0 10px, 0;
+}
